@@ -1,0 +1,168 @@
+{
+  "id": "Anime-5e",
+  "title": "Anime 5E Compendia",
+  "description": "A collection of compendia for the Anime 5E game system.",
+  "authors": [
+    {
+      "name": "Nate McCloud",
+      "discord": "Nate McCloud#5724",
+      "email": "nate.bodine@gmail.com"
+    }
+  ],
+  "version": "v1.1.3",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "verified": "2.1.4"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "styles": [
+    "css/styles.css"
+  ],
+  "packs": [
+    {
+      "name": "anime-5e-classes",
+      "label": "Anime 5E Classes",
+      "path": "packs/anime-5e-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "attributes-list",
+      "label": "Attributes",
+      "path": "packs/attributes-list",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "attributes-srd",
+      "label": "Attributes (SRD)",
+      "path": "packs/attributes-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "change-states",
+      "label": "Change States",
+      "path": "packs/change-state-attributes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "combat-techniques",
+      "label": "Combat Techniques",
+      "path": "packs/combat-technique-attributes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "defects-list",
+      "label": "Defects",
+      "path": "packs/defects-list",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "enhancements-list",
+      "label": "Enhancements",
+      "path": "packs/enhancements-list",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "limiters-list",
+      "label": "Limiters",
+      "path": "packs/limiters-list",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster-training-techniques",
+      "label": "Monster Training Techniques",
+      "path": "packs/monster-training-attributes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "skill-proficiencies",
+      "label": "Skill Proficiencies",
+      "path": "packs/skill-proficiency-attributes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "special-movements",
+      "label": "Special Movements",
+      "path": "packs/special-movement-attributes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "esmodules": [
+    "Anime-5e.js"
+  ],
+  "socket": true,
+  "manifest": ""
+}

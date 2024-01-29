@@ -1,0 +1,5 @@
+.dnd5e.sheet.actor.character ul.skills-list,
+.dnd5e.sheet.actor.npc ul.skills-list {
+  height: 100%;
+  overflow: auto;
+}
