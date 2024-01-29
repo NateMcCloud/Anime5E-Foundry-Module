@@ -4,12 +4,19 @@
   "description": "A collection of compendia for the Anime 5E game system.",
   "authors": [
     {
-      "name": "Nate McCloud",
-      "discord": "Nate McCloud#5724",
-      "email": "nate.bodine@gmail.com"
+      "name": "Nate Bodine",
+      "discord": "natemccloud",
+      "email": "nate.bodine@gmail.com",
+      "flags": {
+        "github": "NateMcCloud"
+      }
     }
   ],
   "version": "v1.1.3",
+  "readme": "README.md",
+  "license": "UNLICENSED",
+  "manifest": "https://github.com/NateMcCloud/Anime5E-Foundry-Module/releases/latest/download/module.json",
+  "download": "https://github.com/NateMcCloud/Anime5E-Foundry-Module/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
