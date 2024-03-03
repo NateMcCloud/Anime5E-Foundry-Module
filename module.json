@@ -12,14 +12,14 @@
       }
     }
   ],
-  "version": "v1.1.3",
+  "version": "v1.1.4",
   "readme": "README.md",
   "license": "UNLICENSED",
   "manifest": "https://github.com/NateMcCloud/Anime5E-Foundry-Module/releases/latest/download/module.json",
   "download": "https://github.com/NateMcCloud/Anime5E-Foundry-Module/releases/latest/download/module.zip",
   "compatibility": {
     "minimum": "10",
-    "verified": "11"
+    "verified": "11.513"
   },
   "relationships": {
     "systems": [
@@ -72,6 +72,17 @@
       "label": "Attributes (SRD)",
       "path": "packs/attributes-srd",
       "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "attribute-subsets",
+      "label": "Attribute Subsets",
+      "path": "packs/attribute/subsets",
+      "type": "JournalEntry",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -167,6 +178,15 @@
       }
     }
   ],
+  "packFolders": [
+    "name": "Anime 5E",
+    "sorting": "a",
+    "color": "#4271FF",
+    "ownership": [
+      "PLAYER": "OBSERVER",
+      "ASSISTANT", "OWNER"
+    ]
+  ]
   "esmodules": [
     "Anime-5e.js"
   ],
